@@ -4,8 +4,8 @@ A simple single-page AJAX-based Twitter clone that uses jQuery, HTML5, and plain
 
 
 <p align="center">
-  <img https://github.com/jadk97/tweeter/blob/master/docs/tweet%20box.png/>
-  <img https://github.com/jadk97/tweeter/blob/master/docs/tweets.png/>
+  <img src = "https://github.com/jadk97/tweeter/blob/master/docs/tweet%20box.png"/>
+  <img src = "https://github.com/jadk97/tweeter/blob/master/docs/tweets.png"/>
 </p>
 
 
