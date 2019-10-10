@@ -1,0 +1,114 @@
+.new-tweet {
+  font-family: 'Bungee', cursive;
+  margin-top:3%;
+}
+
+.new-tweet form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.new-tweet textarea{
+  width: 90%;
+  border:none;
+  height: 3rem;
+  resize:none;
+  flex: 100%;
+  border-bottom: solid 3px black;
+  background-color: #f4f1ec;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+}
+
+.button1{
+  font-weight: bold;
+  cursor:pointer;
+}
+.length-error{
+  text-align: left;
+  color:red;
+  font-family: 'Source Sans Pro', sans-serif;
+  border: solid 3px red;
+  padding: 2%;
+  margin-bottom: 3%;
+}
+.new-tweet input{
+  margin-top: 10px;
+  font-family: 'Bungee', cursive;
+  border: none;
+  background-color:#4056A1;
+  color: white;
+}
+
+.tweet-container{
+  background-color: #f4f1ec;
+  color: #545149;
+  margin-top: 50px;
+  border: solid 3px black;
+  margin-bottom: 50px;
+  padding: 2%;
+}
+.tweet-container:hover{
+  box-shadow: 10px 10px #9faad0;
+  font-weight: bold;
+}
+.tweet-container .tweet-header{
+  width: 100%;
+  background-image: none;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.tweet-container .userInfo{  
+  width: 100%;
+  background-image: none;
+  display:flex;
+  flex-direction: row;
+}
+
+.tweet-container .username{
+padding-top: .5%;
+padding-left: 1%;
+}
+
+.tweet-container .handle{
+  display:none;
+}
+
+.tweet-container:hover .handle{
+  display:inline;
+  color: #9faad0;
+  padding-top: .5%;
+}
+
+.buttons{
+  display: none;
+
+}
+
+.tweet-container:hover .buttons{
+  display:inline;
+  
+}
+
+
+.tweet-container .tweet-content {
+width: 100%;
+text-align:left;
+padding-top:5%;
+padding-bottom: 5%;
+border-bottom: solid 3px black;
+}
+
+.tweet-container .tweet-footer{
+  width: 100%;
+  text-align:left;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 1%;
+}
+

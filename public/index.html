@@ -1,32 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Meta Information -->
-    <title>Tweeter - Home Page</title>
 
-    <!-- External CSS -->
-    <link rel="stylesheet" href="/vendor/normalize-4.1.1.css" type="text/css" />
+<head>
+  <!-- Meta Information -->
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+  <title>Tweeter - Home Page</title>
 
-    <!-- App CSS -->
-    <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
+  <!-- External CSS -->
+  <link rel="stylesheet" href="/vendor/normalize-4.1.1.css" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Bungee|Source+Sans+Pro:300,300i,700,700i&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/28f4ad6c5f.js" crossorigin="anonymous"></script>
+  <!-- App CSS -->
+  <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
+  <!-- Device compatibility -->
+  <link rel="stylesheet" href="/styles/compatibility.css" type="text/css" />
+  <!--New Tweet-->
+  <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
+  <!-- External JS -->
+  <script type="text/javascript" src="/vendor/jquery-2.2.3.min.js"></script>
+  <script src="/scripts/composer-char-counter.js"></script>
+  <script src="/scripts/composer.js"></script>
+  <!-- App JS -->
+  <script type="text/javascript" src="/scripts/app.js"></script>
+  <script>$('body').empty()</script>
 
-    <!-- External JS -->
-    <script type="text/javascript" src="/vendor/jquery-2.2.3.min.js"></script>
+</head>
 
-    <!-- App JS -->
-    <script type="text/javascript" src="/scripts/app.js"></script>
-  </head>
+<body>
+  <header>
+    <div class="avatar">
+      <img src="/images/profile-hex.png">
+    </div>
+    <br>
+    <div class="username">
+      <h2><span style="font-weight:normal"><strong>John</strong> Doe </span></h2>
+    </div>
+  </header>
 
-  <body>
+  <!-- Top nav bar (fixed) -->
+  <nav>
+    <span class="logo">tweeter</span>
+    <div class="slider-trigger">
+      <span class="menu"> <strong>Write</strong> a new Tweet</span>
+      <i class="fas fa-angle-double-down" id ="arrow"></i>
+    </div>
+  </nav>
 
-    <!-- Top nav bar (fixed) -->
-    <nav>
-      <span>tweeter</span>
-    </nav>
+  <!-- Page-specific (main) content here -->
+  <main class="container">
+    <section class="new-tweet">
+      <div class = "length-error"><i class="fas fa-exclamation-triangle"></i> <span class = "error-text"></span> <i class="fas fa-exclamation-triangle"></i></div>
+      <form method="POST" action="/tweets">
+        <textarea name="text" placeholder="What are you humming about?"></textarea>
+        <input type="submit" class="button1" value="Tweet">
+        <span class="counter">140</span>
+      </form>
+    </section>
+    
+    <section class="tweets">
 
-    <!-- Page-specific (main) content here -->
-    <main class="container">
-    </main>
 
-  </body>
+      <!-- <article class="tweet-container">
+      <div class = "tweet-header">
+        <div class = "userInfo">
+          <img src="https://picsum.photos/40/40?random=1">
+        <div class = "username" style = "padding-bottom: 5px">Username</div>
+        
+        </div>
+        <div class ="handle">@username</div>
+      </div>
+      <div class = "tweet-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae perferendis commodi repellendus? Quaerat numquam ex, error maiores repellat voluptates sint! </div>
+      <div class ="tweet-footer">
+        <span class ="datePosted">10 days ago</span>
+        <div class= "buttons">
+        <img src="https://picsum.photos/20/20?random=1">
+        <img src="https://picsum.photos/20/20?random=1">
+        <img src="https://picsum.photos/20/20?random=1">
+      </div>
+      </div>
+    </article> -->
+    </section>
+  </main>
+  <button id = "upButton"><i class="fas fa-angle-double-up fa-2x"></i></button>
+</body>
+
 </html>

@@ -1,0 +1,191 @@
+/* @media only screen and (min-width: 360px) and (max-width: 766px){
+  nav {
+    background-color:transparent;
+    
+  }
+  header{
+    height: 40vh;
+  }
+
+  #arrow{
+    color: red;
+  }
+  .avatar{
+    max-width: 100%;
+    max-height: 10%;
+    margin-bottom: 50%;
+  }
+  .username{
+    padding-bottom: -30%;
+    height: 20%;
+  }
+  
+} */
+
+
+@media only screen and (max-width: 767px){
+  nav {
+    background-color:transparent;
+  }
+
+  #arrow{
+    color: red;
+  }
+}
+
+
+
+@media only screen and (min-width: 768px) {
+  header {
+    width: 33.3%;
+    height: 40vh;
+    float: left;
+    margin-top: 26%;
+    margin-left: 5%;
+  }
+  .avatar{
+    max-width: 100%;
+    max-height: 10%;
+   margin-bottom: 50%;
+  }
+  .username{
+    padding-bottom: -30%;
+    height: 20%;
+  }
+
+.container {
+  width: 50%;
+  margin-top: 25%;
+  margin-left: 20%;
+}
+  nav {
+    text-align: left;
+  }
+
+
+  .main {
+    max-width: 768px;
+    font-size: 26px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  header {
+    width: 33.3%;
+    height: 40vh;
+    float: left;
+    margin-top: 20%;
+    margin-left: 5%;
+  }
+  .avatar{
+    max-width: 100%;
+    max-height: 10%;
+   margin-bottom: 50%;
+  }
+  .username{
+    padding-bottom: -30%;
+    height: 20%;
+  }
+
+.container {
+  width: 50%;
+  margin-top: 20%;
+  margin-left: 20%;
+}
+  nav {
+    text-align: left;
+  }
+
+
+
+  .main {
+    max-width: 768px;
+    font-size: 26px;
+    margin: 0 auto;
+  }
+}
+
+
+@media only screen and (min-width: 1024px) {
+  header {
+    width: 33.3%;
+    height: 40vh;
+    float: left;
+    margin-top: 20%;
+    margin-left: 5%;
+  }
+
+
+.container {
+  width: 50%;
+  margin-top: 20%;
+  margin-left: 20%;
+}
+  nav {
+    text-align: left;
+  }
+
+
+
+  .main {
+    max-width: 992px;
+    font-size: 16px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  header {
+    width: 33.3%;
+    height: 40vh;
+    float: left;
+    margin-top: 15%;
+    margin-left: 5%;
+  }
+
+
+.container {
+  width: 50%;
+  margin-top: 15%;
+  margin-left: 20%;
+}
+  nav {
+    text-align: left;
+  }
+
+
+  .main {
+    max-width: 1200px;
+    font-size: 16px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  header {
+    width: 33.3%;
+    height: 40vh;
+    float: left;
+    margin-top: 12%;
+    margin-left: 5%;
+  }
+
+.container {
+  width: 50%;
+  margin-top: 12%;
+  margin-left: 20%;
+}
+  nav {
+    text-align: left;
+  }
+
+
+
+  .main {
+    max-width: 1400px;
+    font-size: 16px;
+    margin: 0 auto;
+  }
+}
+

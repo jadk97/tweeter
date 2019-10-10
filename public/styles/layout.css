@@ -1,10 +1,8 @@
-/*
- * http://www.paulirish.com/2012/box-sizing-border-box-ftw/
- * https://css-tricks.com/international-box-sizing-awareness-day/
- * Do not modify these two selectors, please
- */
+
 html {
   box-sizing: border-box;
+  font-family: 'Bungee', cursive;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -13,13 +11,116 @@ html {
 /*
  * Global layout stuff
  */
+header{
+  height: 48vh;
+  width: 100%;
+  position: relative;
+  background-color: #d18b23;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
 
+ header .avatar{
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 50%);
+
+ }
+header .username{
+  margin: 0;
+  position: absolute;
+   left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 320%);
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+}
+nav {
+  font-family: 'Bungee', cursive;
+  position: fixed;
+  top: 0;
+  height: 120px;
+  background-color: #4056A1;
+  z-index: 1024;
+  color: white;
+  padding: 1.5em;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  width: 100vw;
+}
+nav span.logo {
+  font-family: 'Bungee', cursive;
+  
+}
+.slider-trigger{
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+}
+nav span.menu{
+  font-family: 'Source Sans Pro', sans-serif;
+}
 body {
   color: #545149;
   background-color: #f4f1ec;
   font-size: 24px;
+  position: relative;
 }
 
-/*
- * Additional CSS can be defined below or in other CSS files, as per instructions
- */
+main{
+  width: 90%;
+  background-color: #f4f1ec;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 0%);
+  text-align: center;
+  
+}
+
+#upButton {
+  background-color: rgb(241, 0, 0);
+  position: fixed;
+  z-index: 999;
+  bottom: 2%;
+  right: 2%;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid red;
+  color: white;
+  cursor: pointer;
+}
+
+
+#arrow {
+  color: orange;
+  padding-top: 10%;
+}
+
+.slider-trigger:hover{
+  cursor:pointer;
+}
+
+ #arrow {
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+#arrow{
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+
