@@ -2,6 +2,7 @@
 
 A simple single-page AJAX-based Twitter clone that uses jQuery, HTML5, and plain ol' CSS3 I made to apply the front-end development skills I picked up at Lighthouse Labs.
 
+## Final Product
 
 <p align="center">
   <img src = "https://github.com/jadk97/tweeter/blob/master/docs/tweet%20box.png"/>
