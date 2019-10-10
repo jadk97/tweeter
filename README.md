@@ -13,7 +13,7 @@ A simple single-page AJAX-based Twitter clone that uses jQuery, HTML5, and plain
 <p align = "center">
   <img src = "https://github.com/jadk97/tweeter/blob/master/docs/tweets.png"/>
 </p>
-
+</br>
 
 ## Getting Started
 
