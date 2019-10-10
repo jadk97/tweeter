@@ -6,12 +6,12 @@ A simple single-page AJAX-based Twitter clone that uses jQuery, HTML5, and plain
 
 <p align="center">
   <h3>The tweet compose box:</h3>
-  <img src = "https://github.com/jadk97/tweeter/blob/master/docs/tweet%20box.png"/>
+  <img align="center" src = "https://github.com/jadk97/tweeter/blob/master/docs/tweet%20box.png"/>
 </p>
 
 <p align = "center">
 <h3>The tweets themselves:</h3>
-  <img src = "https://github.com/jadk97/tweeter/blob/master/docs/tweets.png"/>
+  <img align = "center" src = "https://github.com/jadk97/tweeter/blob/master/docs/tweets.png"/>
 </p>
 
 
