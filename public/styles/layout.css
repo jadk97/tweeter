@@ -17,7 +17,6 @@ header{
   position: relative;
   background-color: #d18b23;
   background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
  header .avatar{
@@ -97,7 +96,7 @@ main{
   cursor: pointer;
 }
 
-
+/* Navbar button */
 #arrow {
   color: orange;
   padding-top: 10%;

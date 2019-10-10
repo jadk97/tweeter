@@ -35,8 +35,9 @@ $(document).ready(function () {
       week: 604800,
       month: 2630000,
       year: 31536000
-    }
-    if(diffTime < 1){
+    };
+
+    if (diffTime <= 1) {
       return "Just now";
     }
     else if (diffTime / timeUnits.minute < 1) {
