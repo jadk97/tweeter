@@ -4,7 +4,7 @@ A simple single-page AJAX-based Twitter clone that uses jQuery, HTML5, and plain
 
 ## Final Product
 
-### The tweet compose box
+### The tweet compose box:
 <p align="center">
   <img src = "https://github.com/jadk97/tweeter/blob/master/docs/tweet%20box.png"/>
 </p>
