@@ -25,6 +25,7 @@
   font-weight: bold;
   cursor:pointer;
 }
+
 .length-error{
   text-align: left;
   color:red;
@@ -33,6 +34,7 @@
   padding: 2%;
   margin-bottom: 3%;
 }
+
 .new-tweet input{
   margin-top: 10px;
   font-family: 'Bungee', cursive;
@@ -49,10 +51,12 @@
   margin-bottom: 50px;
   padding: 2%;
 }
+
 .tweet-container:hover{
   box-shadow: 10px 10px #9faad0;
   font-weight: bold;
 }
+
 .tweet-container .tweet-header{
   width: 100%;
   background-image: none;

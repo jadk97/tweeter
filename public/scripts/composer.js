@@ -10,13 +10,10 @@ $(document).ready(function() {
     }
   });
 
-
-
   $("#upButton").click(function() {
     $(window).scrollTop(0);
     $(".new-tweet").slideDown("fast", function() {
       $("textarea").focus();
     });
   });
-
 });

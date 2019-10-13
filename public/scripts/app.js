@@ -1,6 +1,5 @@
 $(document).ready(function() {
 
-
   //renders the tweets on the page with the HTML code generated through the createTweetElement function
   const renderTweets = function(tweets) {
     $(".tweets").empty();
@@ -21,6 +20,7 @@ $(document).ready(function() {
       }
     });
   };
+
   //finds the difference between the current time and the time was tweet submitted
   //this is then appended to the footer of the tweet in the CreateTweetElement function
   const timeCalculator = function(date) {
@@ -61,7 +61,6 @@ $(document).ready(function() {
       return diffTime + " years ago";
     }
   };
-
 
   //cross site scripting prevention
   const escape = function(str) {
@@ -135,9 +134,6 @@ $(document).ready(function() {
     });
   });
 
-
-
   //loads all tweets upon page load
   loadTweets();
-
 });
